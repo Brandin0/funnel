@@ -938,7 +938,7 @@
 
     <header class="sitehead">
       <a class="logo" href="#" id="homeLink">
-        <img id="logoImg" src="logos/logo-5-wordmark.svg" alt="PickHealthAdvisor" width="210">
+        <img id="logoImg" src="logos/logo-4-care.svg" alt="PickHealthAdvisor" width="210">
       </a>
       <span class="statestrip" id="stateStrip"></span>
       <span class="spacer"></span>
@@ -1030,11 +1030,12 @@
       name: "Leo Paredes",
       title: "Senior Benefit Advisor",
       photo: "leo.webp",
-      /* Toll-free AI line. Every number on the site is the same one now
-         (Brandon, 2026-08-07) — calls land on the voice agent, which
-         pre-qualifies and then transfers or books. Advisors' direct numbers
-         are deliberately no longer published. */
-      phone: "(888) 707-4943",
+      /* Each advisor's own direct line, restored 2026-08-08 (Brandon).
+         The toll-free AI line stays as CONFIG.phone — that is what the
+         escape hatch and the header offer. But once a visitor has finished
+         the form and reached the pick-an-agent screen, they get the real
+         advisor, not the robot. Two different jobs, two different numbers. */
+      phone: "(786) 294-5527",
       email: "ushealthadvisorleo@gmail.com",
       npn: "20705046",
       calendly: "https://calendly.com/leoparedes/5min",
@@ -1070,7 +1071,7 @@
       name: "David Castro",
       title: "Senior Benefit Advisor",
       photo: "david.webp",
-      phone: "(888) 707-4943",   // toll-free AI line — see note on Leo above
+      phone: "(954) 203-8813",   // David's direct line — see note on Leo above
       email: "healthbydavidcastro@gmail.com",
       npn: "19851991",
       calendly: "https://calendly.com/healthbydavidcastro/health-coverage-advising",
@@ -1096,7 +1097,7 @@
       title: "Asesor de Seguros de Salud",
       langs: ["es"],
       photo: "juan.webp",
-      phone: "(888) 707-4943",   // toll-free AI line — see note on Leo above
+      phone: "(786) 562-7964",   // Juan's direct line — see note on Leo above
       email: "Joray.advisor@gmail.com",
       npn: "21546719",             /* Supplied by Brandon 2026-08-06. */
       calendly: "https://app.ringy.com/book/Juanjoray",  /* Ringy, not Calendly — see note below. */
@@ -1196,8 +1197,8 @@
     var logo = document.getElementById("logoImg");
     if (logo) {
       logo.src = effectiveTheme() === "dark"
-        ? "logos/logo-5-wordmark-on-dark.svg"
-        : "logos/logo-5-wordmark.svg";
+        ? "logos/logo-4-care-on-dark.svg"
+        : "logos/logo-4-care.svg";
     }
   }
 
@@ -1536,7 +1537,7 @@
       "your options one on one. No pressure, and nothing to sign.",
     whoNeeds: "Who needs health insurance coverage?",
     whoJustMe: "Just me", whoSpouse: "Me + spouse", whoFamily: "Me + family",
-    escapeHatch: "Don't want to type your details? That's fine — call a licensed advisor " +
+    escapeHatch: "Don't want to type your details? That's fine — get a free consultation " +
       "directly at <b>{phone}</b> and skip the form entirely.",
 
     carriersCap: "Plans we can talk you through include",
@@ -1676,8 +1677,8 @@
       "sus opciones uno a uno. Sin presión, y sin nada que firmar.",
     whoNeeds: "¿Quién necesita cobertura de salud?",
     whoJustMe: "Solo yo", whoSpouse: "Yo + cónyuge", whoFamily: "Yo + familia",
-    escapeHatch: "¿Prefiere no escribir sus datos? No hay problema — llame directamente a un " +
-      "asesor con licencia al <b>{phone}</b> y omita el formulario por completo.",
+    escapeHatch: "¿Prefiere no escribir sus datos? No hay problema — reciba una consulta " +
+      "gratuita directamente al <b>{phone}</b> y omita el formulario por completo.",
 
     carriersCap: "Planes que podemos explicarle incluyen",
     carriersDisclaim: "Los nombres de las compañías son propiedad de sus respectivos dueños y " +
