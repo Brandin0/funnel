@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="540" height="120" role="img" aria-label="PickHealthAdvisor">
+  <title>PickHealthAdvisor — care mark, serif lockup</title>
+  <!-- On-dark variant. Generated from the light version; edit that one first. -->
+  <!-- Two halves of one shape: read together they are a heart, read apart
+       they are a pair of cupped hands. Deliberately abstract — a literal
+       heart on an insurance site reads as a hospital. The serif wordmark
+       matches the headline face already used on the site. -->
+  <path d="M58 104 C 26 80 18 52 34 40 C 47 30 58 40 58 56 Z" fill="#5AAE8B"/>
+  <path d="M58 104 C 90 80 98 52 82 40 C 69 30 58 40 58 56 Z" fill="#5FB3BE"/>
+  <circle cx="58" cy="30" r="7" fill="#E8846A"/>
+  <text x="128" y="76"
+        font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif"
+        font-size="42" font-weight="600" letter-spacing="-0.8">
+    <tspan fill="#FFFFFF">PickHealth</tspan><tspan fill="#5AAE8B">Advisor</tspan>
+  </text>
+</svg>
